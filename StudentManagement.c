@@ -22,6 +22,7 @@ int choice_entry()
 {
     int choice;
     do {
+        printf("Note: This Is A Inpersistent Student Management System \n");
         printf("\n1.Add New Student\n");
         printf("2.View Students\n");
         printf("3.Search Student\n");
@@ -281,9 +282,11 @@ void delete_std()
             printf("DELETED SUCCESSFULLY!\n");
         }
         else
+        {
             system("cls");
             banner();
             printf("STUDENT NOT FOUND!\n");
+        }
     }
 }
 
