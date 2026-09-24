@@ -22,7 +22,7 @@ int choice_entry()
 {
     int choice;
     do {
-        printf("Note: This Is A Inpersistent Student Management System \n");
+        printf("Note: This Is A Non-Persistent Student Management System \n");
         printf("\n1.Add New Student\n");
         printf("2.View Students\n");
         printf("3.Search Student\n");
