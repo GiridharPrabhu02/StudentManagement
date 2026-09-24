@@ -1,5 +1,5 @@
 
-Hello! This is my **console-based Student Management System written in C**.
+Hello! This is my **console-based non-persistent Student Management System written in C**.
 
 ## A. Built With
 
